@@ -8,7 +8,7 @@ category: 算法
 
 # 平铺数组转换为树形结构
 
-```golang
+```go
 type T struct {
   model.DictGenre
   Children *[]*T `json:"children"`

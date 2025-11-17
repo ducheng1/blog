@@ -6,7 +6,7 @@ tags: [ "Golang", "Gorm" ]
 category: 后端
 ---
 
-```golang
+```go
 package utils
 
 import (
