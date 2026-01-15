@@ -107,7 +107,18 @@ const bannerOffset =
 		))}
 
     <!-- 百度统计 -->
-    <script src="https://hm.baidu.com/hm.js?2dd1007864658cafca80b25e2998917a"></script>
+    <script>
+      // @ts-expect-error ignore
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2dd1007864658cafca80b25e2998917a";
+        var s = document.getElementsByTagName("script")[0];
+        // @ts-expect-error ignore
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
 
 		<!-- Set the theme before the page is rendered to avoid a flash -->
 		<script is:inline define:vars={{DEFAULT_THEME, LIGHT_MODE, DARK_MODE, AUTO_MODE, BANNER_HEIGHT_EXTEND, PAGE_WIDTH, configHue}}>
