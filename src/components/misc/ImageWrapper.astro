@@ -36,6 +36,7 @@ if (isLocal) {
     .normalize(path.join('../../', basePath, src))
     .replace(/\\/g, '/')
   const file = files[normalizedPath]
+
   if (!file) {
     console.error(
       `\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`,

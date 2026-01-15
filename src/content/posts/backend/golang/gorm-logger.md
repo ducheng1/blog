@@ -1,9 +1,12 @@
 ---
 title: Gorm Logger的简单配置
 published: 2023-02-27
-image: https://images.unsplash.com/photo-1749334927556-d9fae29d0637?ixid=M3wzNTk3NzR8MHwxfHRvcGljfHxibzhqUUtUYUUwWXx8fHx8Mnx8MTc0OTYwMzkwN3w&ixlib=rb-4.1.0
+description: Gorm Logger的简单配置
+image: ../../../../assets/images/covers/photo-1749334927556-d9fae29d0637.jpeg
 tags: [ "Golang", "Gorm" ]
 category: 后端
+draft: false
+lang: zh-CN
 ---
 
 ```go

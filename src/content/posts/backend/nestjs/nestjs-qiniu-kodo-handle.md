@@ -1,12 +1,17 @@
 ---
-title: Nestjs实现七牛云Kodo私有存储文件上传与预览
+title: Nest.js封装七牛云Kodo SDK模块
 published: 2024-03-28
-image: https://images.unsplash.com/photo-1749226697962-950d46f7a0f7?ixid=M3wzNTk3NzR8MHwxfHRvcGljfHxibzhqUUtUYUUwWXx8fHx8Mnx8MTc0OTYwMzkwN3w&ixlib=rb-4.1.0
+description: 在Nest.js中使用七牛云Kodo SDK实现私有桶的文件上传与预览链接获取
+image: ../../../../assets/images/covers/photo-1749226697962-950d46f7a0f7.jpeg
 tags: [ "Nest.js" ]
 category: 后端
+draft: false
+lang: zh-CN
 ---
 
 # 安装七牛云SDK
+
+[官方文档](https://developer.qiniu.com/kodo/1289/nodejs)
 
 ```bash
 pnpm add qiniu
@@ -21,7 +26,8 @@ pnpm add qiniu
 ## qiniu.service.ts
 
 由于是私有存储，在上传和下载时都需要生成对应的token，具体实现可以查看文档[七牛Node.jsSDK文件数据流上传](https://developer.qiniu.com/kodo/sdk/nodejs#form-upload-stream)。
-注意：这里的key尽量别直接使用文件名，七牛云的上传策略会按key拦截或覆盖文件上传
+
+**注意：这里的key尽量别直接使用文件名，七牛云的上传策略会按key拦截或覆盖文件上传**
 
 ```typescript
 import { Injectable } from "@nestjs/common";

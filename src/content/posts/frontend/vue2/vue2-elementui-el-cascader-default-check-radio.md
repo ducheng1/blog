@@ -1,9 +1,12 @@
 ---
 title: 给可任意选择一级的el-cascader赋值时子节点radio不默认选中的解决方式
 published: 2023-02-06
-image: https://images.pexels.com/photos/32347564/pexels-photo-32347564.jpeg
+description: 给可任意选择一级的el-cascader赋值时子节点radio不默认选中的解决方式
+image: ../../../../assets/images/covers/pexels-photo-32347564.jpeg
 tags: [ "Vue2", "ElementUI" ]
 category: 前端
+draft: false
+lang: zh-CN
 ---
 
 # 问题描述

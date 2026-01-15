@@ -1,9 +1,12 @@
 ---
-title: 使用Vue3+Vant实现移动端@功能
+title: Vue实现移动端@人功能
 published: 2024-04-24
-image: https://images.unsplash.com/photo-1749370250800-4164aea78707?ixid=M3wzNTk3NzR8MHwxfHRvcGljfHxibzhqUUtUYUUwWXx8fHx8Mnx8MTc0OTYwMzkwN3w&ixlib=rb-4.1.0
-tags: [ "Vue3", "Vant" ]
+description: 基于原生contenteditable可编辑元素封装，与组件库无关，使用的vant-popup仅供参考
+image: ../../../../assets/images/covers/photo-1749370250800-4164aea78707.jpeg
+tags: [ "Vue3", "移动端" ]
 category: 前端
+draft: false
+lang: zh-CN
 ---
 
 # 基础DOM结构

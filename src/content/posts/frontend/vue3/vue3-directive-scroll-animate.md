@@ -1,9 +1,12 @@
 ---
-title: 使用Vue3自定义指令实现滚动触发元素动画的一种方法
+title: Vue自定义指令实现滚动触发动画
 published: 2023-04-04
-image: https://images.unsplash.com/photo-1608531078877-d885ade165c4?ixid=M3wzNTk3NzR8MHwxfHRvcGljfHxpVUlzblZ0akIwWXx8fHx8Mnx8MTc0OTYxMzEyNXw&ixlib=rb-4.1.0
+description: 使用IntersectionObserver封装Vue3自定义指令，实现滚动触发元素动画的一种方法
+image: ../../../../assets/images/covers/photo-1608531078877-d885ade165c4.jpeg
 tags: [ "Vue3" ]
 category: 前端
+draft: false
+lang: zh-CN
 ---
 
 主要实现原理是使用 IntersectionObserver 对元素进行监听，以元素是否与该观察者相交来验证元素是否进入视图范围；使用 threshold 来控制元素与观察者相交多少百分比后触发事件。

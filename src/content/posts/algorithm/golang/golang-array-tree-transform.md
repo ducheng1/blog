@@ -1,9 +1,12 @@
 ---
 title: Golang平铺数组与树形结构互相转换
 published: 2023-02-27
-image: https://images.unsplash.com/photo-1747985323857-5c1c16b2ac47?ixid=M3wzNTk3NzR8MHwxfHRvcGljfHxibzhqUUtUYUUwWXx8fHx8Mnx8MTc0OTYwMzkwN3w&ixlib=rb-4.1.0
+description: Golang平铺数组与树形结构互相转换
+image: ../../../../assets/images/covers/photo-1747985323857-5c1c16b2ac47.jpeg
 tags: [ "Golang" ]
 category: 算法
+draft: false
+lang: zh-CN
 ---
 
 # 平铺数组转换为树形结构
@@ -51,7 +54,7 @@ treeList := func() []T {
 
 # 树形结构转换为平铺数组
 
-```golang
+```go
 flat := func() []model.DictGenre {
   var flat []model.DictGenre
   for _, v := range genres {

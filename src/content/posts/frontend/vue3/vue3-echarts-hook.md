@@ -1,9 +1,12 @@
 ---
-title: 基于Vue3的ECharts hook封装
+title: Vue的ECharts hook封装
 published: 2025-11-17
-image: https://images.unsplash.com/photo-1761839257658-23502c67f6d5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-tags: [ "Vue3", "ECharts", "Hooks", "可视化" ]
+description: 基于Vue3的ECharts hook封装，实现图表的自动调整尺寸、防抖等功能
+image: ../../../../assets/images/covers/photo-1761839257658-23502c67f6d5.jpeg
+tags: [ "Vue3", "ECharts", "可视化" ]
 category: 前端
+draft: false
+lang: zh-CN
 ---
 
 ## 引入ECharts
@@ -11,6 +14,8 @@ category: 前端
 推荐按需引入，如果不考虑包体积则可以全量引入
 
 ### 按需引入
+
+[官方文档](https://echarts.apache.org/handbook/zh/basics/import#%E5%9C%A8-typescript-%E4%B8%AD%E6%8C%89%E9%9C%80%E5%BC%95%E5%85%A5)
 
 ```typescript
 // 系列类型
