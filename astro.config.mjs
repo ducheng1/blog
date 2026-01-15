@@ -72,6 +72,9 @@ export default defineConfig({
           },
         },
       },
+      shiki: {
+        langs: ['go'],
+      },
       styleOverrides: {
         codeBackground: 'var(--codeblock-bg)',
         borderRadius: '0.75rem',
