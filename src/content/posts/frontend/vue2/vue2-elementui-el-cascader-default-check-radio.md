@@ -2,7 +2,7 @@
 title: 给可任意选择一级的el-cascader赋值时子节点radio不默认选中的解决方式
 published: 2023-02-06
 description: 给可任意选择一级的el-cascader赋值时子节点radio不默认选中的解决方式
-image: ../../../../assets/images/covers/pexels-photo-32347564.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-a868e324d35b13d8f33d7d011eb831c6.jpeg
 tags: [ "Vue2", "ElementUI" ]
 category: 前端
 draft: false
@@ -12,10 +12,10 @@ lang: zh-CN
 # 问题描述
 
 问题呈现：
-![](https://img.dcwedu.top/i/2024/04/01/660a6237e6bdc.png)
+![](https://cdn.dcwedu.top/common/2024/04/01/660a6237e6bdc.png)
 
 解决后：
-![](https://img.dcwedu.top/i/2024/04/01/660a623aa8c4c.png)
+![](https://cdn.dcwedu.top/common/2024/04/01/660a623aa8c4c.png)
 
 # 解决方案
 

@@ -2,7 +2,7 @@
 title: 在Vue中实现ECharts自动轮播图表
 published: 2025-11-17
 description: 基于Vue3的ECharts自动轮播，实现数据自动切换展示
-image: ../../../../assets/images/covers/photo-1763037152119-f86924827076.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-45445046f2a8cce12944209605ef8810.jpeg
 tags: [ "Vue3", "ECharts", "可视化" ]
 category: 前端
 draft: false

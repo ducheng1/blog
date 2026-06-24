@@ -2,7 +2,7 @@
 title: Gorm Logger的简单配置
 published: 2023-02-27
 description: Gorm Logger的简单配置
-image: ../../../../assets/images/covers/photo-1749334927556-d9fae29d0637.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782290637-58b80e4b22ef73d648afc87803f04c31.jpg
 tags: [ "Golang", "Gorm" ]
 category: 后端
 draft: false

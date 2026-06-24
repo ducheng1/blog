@@ -2,7 +2,7 @@
 title: Vue+Three.js实现点云效果
 published: 2025-06-11
 description: Vue+Three.js实现点云效果
-image: ../../../../assets/images/covers/photo-1749254080180-f9da0512b5c7.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-7593cce67fce87ed061e9c3bee3d5fba.jpeg
 tags: [ "Vue3", "可视化", "Three.js" ]
 category: 前端
 draft: false

@@ -2,7 +2,7 @@
 title: 总结一些前端性能优化的方式
 published: 2025-06-11
 description: 前端性能优化方式总结
-image: ../../../../assets/images/covers/photo-1748426156241-6e5239022c03.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-a86851743d15bf517b48764128d5b64d.jpeg
 tags: [ "随笔" ]
 category: 前端
 draft: false

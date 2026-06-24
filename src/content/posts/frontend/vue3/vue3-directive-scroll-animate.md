@@ -2,7 +2,7 @@
 title: Vue自定义指令实现滚动触发动画
 published: 2023-04-04
 description: 使用IntersectionObserver封装Vue3自定义指令，实现滚动触发元素动画的一种方法
-image: ../../../../assets/images/covers/photo-1608531078877-d885ade165c4.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782290637-b42c3685890fe7fa0d4f7adff6d08ee2.jpg
 tags: [ "Vue3" ]
 category: 前端
 draft: false

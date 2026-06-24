@@ -2,7 +2,7 @@
 title: Vue实现移动端@人功能
 published: 2024-04-24
 description: 基于原生contenteditable可编辑元素封装，与组件库无关，使用的vant-popup仅供参考
-image: ../../../../assets/images/covers/photo-1749370250800-4164aea78707.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782290637-dd572f30b6bbb453dceabb5738e1bf1c.jpg
 tags: [ "Vue3", "移动端" ]
 category: 前端
 draft: false
@@ -49,7 +49,7 @@ lang: zh-CN
 
 以上就得到了一个简单的可编辑元素。
 
-![](https://img.dcwedu.top/i/2024/04/24/662858b3045ea.png)
+![](https://cdn.dcwedu.top/common/2024/04/24/662858b3045ea.png)
 
 # 监听是否输入@并替换为所需内容
 
@@ -87,11 +87,11 @@ const textNode = ref<Selection["focusNode"]>();
 
 接下来需要去获取这两个值。这里用到了`window.getSelection()`，官方文档对于该API的描述如下：
 
-![](https://img.dcwedu.top/i/2024/04/24/66285aaf9094e.png)
+![](https://cdn.dcwedu.top/common/2024/04/24/66285aaf9094e.png)
 
 兼容性还是不错的。
 
-![](https://img.dcwedu.top/i/2024/04/24/66285aebcaf2d.png)
+![](https://cdn.dcwedu.top/common/2024/04/24/66285aebcaf2d.png)
 
 获取对应光标位置`TextNode`的代码如下：
 
@@ -271,7 +271,7 @@ function createMentionElement(user: any) {
 }
 ```
 
-![](https://img.dcwedu.top/i/2024/04/24/66286111bc99a.png)
+![](https://cdn.dcwedu.top/common/2024/04/24/66286111bc99a.png)
 
 到了这里我们的@功能已经实现了，之后只需要实现获取文本框内容逻辑，实现的是业务所需的逻辑，仅供参考。
 
@@ -344,5 +344,5 @@ app.use(VueDompurifyHtml);
 </style>
 ```
 
-![](https://img.dcwedu.top/i/2024/04/24/662861efa9f18.png)
+![](https://cdn.dcwedu.top/common/2024/04/24/662861efa9f18.png)
 

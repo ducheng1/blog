@@ -2,7 +2,7 @@
 title: 深色模式切换动画实现
 published: 2025-11-11
 description: 使用View Transition API实现丝滑的深色模式切换动画
-image: ../../../../assets/images/covers/photo-1762632173940-d08a7b9a19b3.avif
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-78c176ebc84c8a249ccd2e020c57a9a2.avif
 tags: [ "随笔" ]
 category: 前端
 draft: false
@@ -10,7 +10,7 @@ lang: zh-CN
 ---
 
 实现效果如下：
-![效果图](/static/images/darkmode-view-transition/shot.gif)
+![效果图](https://cdn.dcwedu.top/common/2026/06/24/1782290993-d09a69bf06b22b4960f50221caa0080b.gif)
 
 ## 前置条件
 

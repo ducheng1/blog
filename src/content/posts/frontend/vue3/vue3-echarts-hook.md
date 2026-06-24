@@ -2,7 +2,7 @@
 title: Vue的ECharts hook封装
 published: 2025-11-17
 description: 基于Vue3的ECharts hook封装，实现图表的自动调整尺寸、防抖等功能
-image: ../../../../assets/images/covers/photo-1761839257658-23502c67f6d5.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-6886441ac7e4d8047fa6a852e143feb5.jpeg
 tags: [ "Vue3", "ECharts", "可视化" ]
 category: 前端
 draft: false

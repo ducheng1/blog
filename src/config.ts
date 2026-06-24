@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/banner.jpg', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'https://cdn.dcwedu.top/common/2026/06/24/1782290952-72525f98f5e63a315ed28ad3a97df6f6.jpg', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true, // Display the credit text of the banner image
@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/avatar.jpg', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'https://cdn.dcwedu.top/common/2026/06/24/1782290898-3f232edec9f7bae64aae7c2272f06de1.jpg', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'ducheng1',
   bio: '希望我们都能成为彼此之友',
   links: [

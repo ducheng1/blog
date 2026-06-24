@@ -2,7 +2,7 @@
 title: Nest.js封装七牛云Kodo SDK模块
 published: 2024-03-28
 description: 在Nest.js中使用七牛云Kodo SDK实现私有桶的文件上传与预览链接获取
-image: ../../../../assets/images/covers/photo-1749226697962-950d46f7a0f7.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782290637-0159e19d66dbd199836b6344950eddc7.jpg
 tags: [ "Nest.js" ]
 category: 后端
 draft: false
@@ -21,7 +21,7 @@ pnpm add qiniu
 
 > 别在意angular的图标
 
-![文件结构](https://img.dcwedu.top/i/2024/04/01/660a610f9f8cb.png)
+![文件结构](https://cdn.dcwedu.top/common/2024/04/01/660a610f9f8cb.png)
 
 ## qiniu.service.ts
 
@@ -236,5 +236,5 @@ export class AppModule implements NestModule {
 
 # ApiFox中的测试结果
 
-![](https://img.dcwedu.top/i/2024/04/01/660a61913e600.png)
-![](https://img.dcwedu.top/i/2024/04/01/660a61b93a3db.png)
+![](https://cdn.dcwedu.top/common/2024/04/01/660a61913e600.png)
+![](https://cdn.dcwedu.top/common/2024/04/01/660a61b93a3db.png)

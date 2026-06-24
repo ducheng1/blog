@@ -2,7 +2,7 @@
 title: Golang平铺数组与树形结构互相转换
 published: 2023-02-27
 description: Golang平铺数组与树形结构互相转换
-image: ../../../../assets/images/covers/photo-1747985323857-5c1c16b2ac47.jpeg
+image: https://cdn.dcwedu.top/common/2026/06/24/1782289405-2b09840f4f2c4d4b2612407c3d710882.jpeg
 tags: [ "Golang" ]
 category: 算法
 draft: false
